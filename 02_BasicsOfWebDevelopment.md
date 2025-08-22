@@ -150,6 +150,15 @@ and the format It serve you data in the plates that's JSON.
 
 ---
 
+### Website Architecture 
+
+Basics of **website architecture**, starting with creating a simple website. <br/>
+Create an **index.html** file. <br/>
+Essential **HTML tags**, including DOCTYPE, html, head, meta, title, and body, and explains how to structure your HTML document. <br/>
+How to use a text editor to write HTML code, view your website in a browser, and validate your HTML to ensure it’s error-free. <br/>
+That's how you Create a basic **Webpage**. <br/>
+Collection of Webpages make your **Website**. <br/>
+
 [Prev]() [Next]()
 
 **Page-2**
