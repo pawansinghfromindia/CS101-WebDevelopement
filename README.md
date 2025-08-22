@@ -8,7 +8,7 @@ We’ll learn essential front-end skills like **web page structure**, **HTML**, 
 |  Serial Number |   Contents   |
 |-------------|-----------------|
 |01 | [Introduction to Web Development](https://github.com/pawansinghfromindia/CS101-WebDevelopement/edit/main/01_IntroductionToWebDevelopement)|
-|02 | |
+|02 | [Basics of Web Development](https://github.com/pawansinghfromindia/CS101-WebDevelopement/blob/main/02_BasicsOfWebDevelopment.md)|
 |03 | |
 |04 | |
 |05 | |
