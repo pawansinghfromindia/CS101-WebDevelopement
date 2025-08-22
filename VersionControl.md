@@ -160,3 +160,21 @@ In Chrome: <br/>
 - A quick web search will give you instructions on how to do the same in other browsers.
 
 ---
+
+### 🚀 A Fun Way To Learn Git
+
+If you're looking to truly master Git concepts while having fun?
+
+**Oh My Git!** is the perfect game for you! This interactive, open-source card game turns Git into an exciting experience, helping you practice 
+and understand the ins and outs of version control in a hands-on, visual way. 
+Whether you're just starting or want to solidify your skills, Oh My Git! will make learning Git enjoyable and memorable.
+
+- Dive into the game, and you'll be a Git pro in no time! <br/>
+Download and Install Instructions:
+
+1. Go to the Oh My Git! website: [ohmygit.org](https://ohmygit.org/) .
+2. Click "Download" for your operating system (Windows, macOS, or Linux).
+3. Open the downloaded file and follow the prompts to install.
+4. Once installed, launch Oh My Git! and start playing!
+
+---
