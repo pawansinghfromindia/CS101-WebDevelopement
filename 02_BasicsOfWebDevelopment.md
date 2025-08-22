@@ -150,7 +150,7 @@ and the format It serve you data in the plates that's JSON.
 
 ---
 
-### Website Architecture 
+### 🐙 Website Architecture 
 
 Basics of **website architecture**, starting with creating a simple website. <br/>
 Create an **index.html** file. <br/>
@@ -159,6 +159,6 @@ How to use a text editor to write HTML code, view your website in a browser, and
 That's how you Create a basic **Webpage**. <br/>
 Collection of Webpages make your **Website**. <br/>
 
-[Prev]() [Next]()
+[Prev](https://github.com/pawansinghfromindia/CS101-WebDevelopment/blob/main/01_IntroductionToWebDevelopment.md) [Next]()
 
 **Page-2**
