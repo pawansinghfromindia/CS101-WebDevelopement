@@ -1,4 +1,4 @@
-# Web Development - CS101
+# Web Development 
 
 
 ## 🧶 Tools for Web Development
