@@ -38,7 +38,8 @@
 
 ✅ Eventually We will be using all of these tools VS Code + Chrome bcuz We will write HTML, CSS and JavaScript all in our computer.
 
-# ____________________________________________________________________________
+
+---
 
 ## Setup Code Editor - VS Code
 - How to setup your code editor?
@@ -129,4 +130,6 @@
 - tab key does miracle in HTML code auto generation
 - alt key to replace mouse and curser each time to rename something
 
-# ____________________________________________________________________________
+[Next Page - 🌐 How does Internet work?]()
+
+**Page-1**
