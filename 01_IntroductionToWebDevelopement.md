@@ -130,6 +130,7 @@
 - tab key does miracle in HTML code auto generation
 - alt key to replace mouse and curser each time to rename something
 
-[Prev ](https://github.com/pawansinghfromindia/CS101-WebDevelopement) [Next - Basics of Web Development](https://github.com/pawansinghfromindia/CS101-WebDevelopement/blob/main/02_BasicsOfWebDevelopment.md)
+[Prev](https://github.com/pawansinghfromindia/CS101-WebDevelopement) 
+[Next](https://github.com/pawansinghfromindia/CS101-WebDevelopement/blob/main/02_BasicsOfWebDevelopment.md)
 
 **Page-1**
