@@ -29,14 +29,14 @@ By the end, you’ll be able to build and style websites.
 |-------------|-----------------|
 |01 | [Introduction to Web Development](https://github.com/pawansinghfromindia/CS101-WebDevelopement/edit/main/01_IntroductionToWebDevelopement)|
 |02 | [Basics of Web Development](https://github.com/pawansinghfromindia/CS101-WebDevelopement/blob/main/02_BasicsOfWebDevelopment.md)|
-|03 | |
-|04 | |
+|03.1 | [Basics of HTML](https://github.com/pawansinghfromindia/CS101-WebDevelopment/blob/main/03_HTML_01.md) |
+|03.2 | [Website Architecture Basics](https://github.com/pawansinghfromindia/CS101-WebDevelopment/blob/main/03_HTML_02.md)|
+|03.3 | [Semantic HTML Elements](https://github.com/pawansinghfromindia/CS101-WebDevelopment/blob/main/03_HTML_03.md)|
+|04 | [HTML Images](https://github.com/pawansinghfromindia/CS101-WebDevelopment/blob/main/03_HTML_04.md)|
 |05 | |
 |06 | |
 |07 | |
 |08 | |
-|09 | |
-|10 | |
 
 
 
