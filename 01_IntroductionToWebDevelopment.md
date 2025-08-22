@@ -107,6 +107,8 @@
 - 13. ```ctrl + plus/minus+-``` to zoom up and zoom in
 
 [VS-Code Shortcuts PDF](https://github.com/pawansinghfromindia/CS101-WebDevelopement/blob/main/VSCode-shortcuts.pdf)
+[Shortcuts-Windows](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf)
+[Shortcuts-MacOS](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf)
 
 
 | Windows 11| MacOS |
