@@ -34,9 +34,12 @@ By the end, you’ll be able to build and style websites.
 |3.3 | [Semantic HTML Elements](https://github.com/pawansinghfromindia/CS101-WebDevelopment/blob/main/03_HTML_03.md)|
 |3.4 | [HTML Images](https://github.com/pawansinghfromindia/CS101-WebDevelopment/blob/main/03_HTML_04.md)|
 |3.5 | [Emmet, Block vs Inline, div](https://github.com/pawansinghfromindia/CS101-WebDevelopment/blob/main/03_HTML_05.md)|
-|3.6 | |
+|3.6 | [Tables & Form in HTML](https://github.com/pawansinghfromindia/CS101-WebDevelopment/blob/main/03_HTML_06.md)|
+|3.7 | |
 |04 | |
 |05 | |
+|06 | |
+|07 | |
 
 
 
