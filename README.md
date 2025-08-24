@@ -36,10 +36,21 @@ By the end, you’ll be able to build and style websites.
 |3.5 | [Emmet, Block vs Inline, div](https://github.com/pawansinghfromindia/CS101-WebDevelopment/blob/main/03_HTML_05.md)|
 |3.6 | [Tables & Form in HTML](https://github.com/pawansinghfromindia/CS101-WebDevelopment/blob/main/03_HTML_06.md)|
 |3.7 | [Multimedia & ARIA Tags in HTML](https://github.com/pawansinghfromindia/CS101-WebDevelopment/blob/main/03_HTML_07.md)|
-|04 | |
+|4.1 | [Introduction to CSS ](https://github.com/pawansinghfromindia/CS101-WebDevelopment/blob/main/04_CSS_01.md)|
+|4.2 | [CSS Status](https://github.com/pawansinghfromindia/CS101-WebDevelopment/blob/main/04_CSS_02.md)|
+|4.3 | [Adding CSS in HTML](https://github.com/pawansinghfromindia/CS101-WebDevelopment/blob/main/04_CSS_03.md)|
+|4.4 | [Selectors: Element, Class, & ID](https://github.com/pawansinghfromindia/CS101-WebDevelopment/blob/main/04_CSS_04.md)|
+|4.5 | [Advanced CSS Selectors and Styling Techniques](https://github.com/pawansinghfromindia/CS101-WebDevelopment/blob/main/04_CSS_05.md)|
+|4.6 | [Pseudo classes and Attribute Selectors](https://github.com/pawansinghfromindia/CS101-WebDevelopment/blob/main/04_CSS_06.md)|
+|4.7 | [External Stylesheets](https://github.com/pawansinghfromindia/CS101-WebDevelopment/blob/main/04_CSS_07.md)|
+|4.8 | [Box Model](https://github.com/pawansinghfromindia/CS101-WebDevelopment/blob/main/04_CSS_08.md)|
+|4.9 | |
 |05 | |
 |06 | |
 |07 | |
+|08 | |
+|09 | |
+|10 | |
 
 
 
