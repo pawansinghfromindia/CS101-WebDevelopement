@@ -23,34 +23,45 @@ By the end, you’ll be able to build and style websites.
 3. Validate HTML code to ensure it adheres to web standards and best practices. <br/>
 
 ---
+
 ## Course Content
 
-|  Serial Number |   Contents   |
-|-------------|-----------------|
-|01 | [Introduction to Web Development](https://github.com/pawansinghfromindia/CS101-WebDevelopement/edit/main/01_IntroductionToWebDevelopement)|
-|02 | [Basics of Web Development](https://github.com/pawansinghfromindia/CS101-WebDevelopement/blob/main/02_BasicsOfWebDevelopment.md)|
-|3.1 | [Basics of HTML](https://github.com/pawansinghfromindia/CS101-WebDevelopment/blob/main/03_HTML_01.md) |
-|3.2 | [Website Architecture Basics](https://github.com/pawansinghfromindia/CS101-WebDevelopment/blob/main/03_HTML_02.md)|
-|3.3 | [Semantic HTML Elements](https://github.com/pawansinghfromindia/CS101-WebDevelopment/blob/main/03_HTML_03.md)|
-|3.4 | [HTML Images](https://github.com/pawansinghfromindia/CS101-WebDevelopment/blob/main/03_HTML_04.md)|
-|3.5 | [Emmet, Block vs Inline, div](https://github.com/pawansinghfromindia/CS101-WebDevelopment/blob/main/03_HTML_05.md)|
-|3.6 | [Tables & Form in HTML](https://github.com/pawansinghfromindia/CS101-WebDevelopment/blob/main/03_HTML_06.md)|
-|3.7 | [Multimedia & ARIA Tags in HTML](https://github.com/pawansinghfromindia/CS101-WebDevelopment/blob/main/03_HTML_07.md)|
-|4.1 | [Introduction to CSS ](https://github.com/pawansinghfromindia/CS101-WebDevelopment/blob/main/04_CSS_01.md)|
-|4.2 | [CSS Status](https://github.com/pawansinghfromindia/CS101-WebDevelopment/blob/main/04_CSS_02.md)|
-|4.3 | [Adding CSS in HTML](https://github.com/pawansinghfromindia/CS101-WebDevelopment/blob/main/04_CSS_03.md)|
-|4.4 | [Selectors: Element, Class, & ID](https://github.com/pawansinghfromindia/CS101-WebDevelopment/blob/main/04_CSS_04.md)|
-|4.5 | [Advanced CSS Selectors and Styling Techniques](https://github.com/pawansinghfromindia/CS101-WebDevelopment/blob/main/04_CSS_05.md)|
-|4.6 | [Pseudo classes and Attribute Selectors](https://github.com/pawansinghfromindia/CS101-WebDevelopment/blob/main/04_CSS_06.md)|
-|4.7 | [External Stylesheets](https://github.com/pawansinghfromindia/CS101-WebDevelopment/blob/main/04_CSS_07.md)|
-|4.8 | [Box Model](https://github.com/pawansinghfromindia/CS101-WebDevelopment/blob/main/04_CSS_08.md)|
-|4.9 | |
-|05 | |
-|06 | |
-|07 | |
-|08 | |
-|09 | |
-|10 | |
+|       |  Serial Number |   Contents   |
+|-------|-------------|-----------------|
+| Web |01 | [Introduction to Web Development](https://github.com/pawansinghfromindia/CS101-WebDevelopement/edit/main/01_IntroductionToWebDevelopement)|
+| Web |02 | [Basics of Web Development](https://github.com/pawansinghfromindia/CS101-WebDevelopement/blob/main/02_BasicsOfWebDevelopment.md)|
+| HTML |3.1 | [Basics of HTML](https://github.com/pawansinghfromindia/CS101-WebDevelopment/blob/main/03_HTML_01.md) |
+| HTML |3.2 | [Website Architecture Basics](https://github.com/pawansinghfromindia/CS101-WebDevelopment/blob/main/03_HTML_02.md)|
+| HTML |3.3 | [Semantic HTML Elements](https://github.com/pawansinghfromindia/CS101-WebDevelopment/blob/main/03_HTML_03.md)|
+| HTML |3.4 | [HTML Images](https://github.com/pawansinghfromindia/CS101-WebDevelopment/blob/main/03_HTML_04.md)|
+| HTML |3.5 | [Emmet, Block vs Inline, div](https://github.com/pawansinghfromindia/CS101-WebDevelopment/blob/main/03_HTML_05.md)|
+| HTML |3.6 | [Tables & Form in HTML](https://github.com/pawansinghfromindia/CS101-WebDevelopment/blob/main/03_HTML_06.md)|
+| HTML |3.7 | [Multimedia & ARIA Tags in HTML](https://github.com/pawansinghfromindia/CS101-WebDevelopment/blob/main/03_HTML_07.md)|
+| CSS |4.1 | [Introduction to CSS ](https://github.com/pawansinghfromindia/CS101-WebDevelopment/blob/main/04_CSS_01.md)|
+| CSS |4.2 | [CSS Status](https://github.com/pawansinghfromindia/CS101-WebDevelopment/blob/main/04_CSS_02.md)|
+| CSS |4.3 | [Adding CSS in HTML](https://github.com/pawansinghfromindia/CS101-WebDevelopment/blob/main/04_CSS_03.md)|
+| CSS |4.4 | [Selectors: Element, Class, & ID](https://github.com/pawansinghfromindia/CS101-WebDevelopment/blob/main/04_CSS_04.md)|
+| CSS |4.5 | [Advanced CSS Selectors and Styling Techniques](https://github.com/pawansinghfromindia/CS101-WebDevelopment/blob/main/04_CSS_05.md)|
+| CSS |4.6 | [Pseudo classes and Attribute Selectors](https://github.com/pawansinghfromindia/CS101-WebDevelopment/blob/main/04_CSS_06.md)|
+| CSS |4.7 | [External Stylesheets](https://github.com/pawansinghfromindia/CS101-WebDevelopment/blob/main/04_CSS_07.md)|
+| CSS |4.8 | [Box Model](https://github.com/pawansinghfromindia/CS101-WebDevelopment/blob/main/04_CSS_08.md)|
+| CSS |4.9 | [CSS Selectors](https://github.com/pawansinghfromindia/CS101-WebDevelopment/blob/main/04_CSS_09.md)|
+| CSS |4.10 | [Box Model, Inline and Block elements](https://github.com/pawansinghfromindia/CS101-WebDevelopment/edit/main/04_CSS_10.md)|
+| CSS |4.11 | [Navbar](https://github.com/pawansinghfromindia/CS101-WebDevelopment/blob/main/04_CSS_11.md)|
+| CSS |4.12 | [Build a custom template Project](https://github.com/pawansinghfromindia/CS101-WebDevelopment/blob/main/04_CSS_12.md)|
+| CSS |4.13 | [Flexbox and Grid ](https://github.com/pawansinghfromindia/CS101-WebDevelopment/blob/main/04_CSS_13.md)|
+| CSS |4.14 | [Breakingpoints](https://github.com/pawansinghfromindia/CS101-WebDevelopment/blob/main/04_CSS_14.md)|
+| CSS |4.15 | [Bootstrap](https://github.com/pawansinghfromindia/CS101-WebDevelopment/blob/main/04_CSS_15.md)|
+| CSS |4.16 | [Cards](https://github.com/pawansinghfromindia/CS101-WebDevelopment/blob/main/04_CSS_16.md)|
+| BootStrap   | 5 | [Bootstrap](https://github.com/pawansinghfromindia/CS101-WebDevelopment/blob/main/04_CSS_15.md)|
+| Tailwind CSS | 6 | [Tailwind CSS](https://github.com/pawansinghfromindia/CS101-WebDevelopment/blob/main/06_TailwindCSS.md)|
+| JavaScript |7.1 | |
+| JavaScript |7.2 | |
+| JavaScript |7.3 | |
+| JavaScript |7.4 | |
+| JavaScript |7.5 | |
+
+
 
 
 
