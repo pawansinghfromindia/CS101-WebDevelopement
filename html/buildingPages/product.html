@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        /* padding: 20px; */
+        padding: 0;
+        margin: 0;
+      }
+      nav {
+        background-color: #706c6c;
+        padding: 10px;
+        text-align: center;
+        margin-bottom: 20px;
+      }
+      nav a {
+        color: white;
+        margin: 0 15px;
+        text-decoration: none;
+        font-weight: bold;
+      }
+      nav a:hover {
+        text-decoration: underline;
+      }
+
+      h1 {
+        text-align: center;
+        color: #333;
+      }
+      .product-grid {
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+      .card {
+        background: white;
+        width: 250px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px #ccc;
+        padding: 15px;
+        text-align: center;
+      }
+      .card img {
+        width: 100%;
+        border-radius: 8px;
+      }
+
+      .card h3 {
+        margin: 0 0;
+      }
+
+      .card p {
+        font-size: 14px;
+        color: #555;
+      }
+
+      .price {
+        font-weight: bold;
+        color: green;
+        margin: 10px 0;
+      }
+
+      .card button {
+        background-color: #007bff;
+        color: white;
+        border: none;
+        padding: 10px;
+        border-radius: 5px;
+        cursor: pointer;
+        width: 40%;
+      }
+
+      .card button:hover {
+        background-color: #0056b3;
+      }
+
+      @media (max-width: 768px) {
+        .product-grid {
+          flex-direction: column;
+          align-items: center;
+        }
+
+        .card {
+          width: 90%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+      <a href="products.html">Products</a>
+      <a href="login.html">Login</a>
+      <a href="signup.html">Signup</a>
+    </nav>
+    <hr />
+
+    <h1>Our Products</h1>
+    <div class="product-grid">
+      <div class="card">
+        <img src="../images/programming.png" alt="programming" />
+        <h3>HTML Course</h3>
+        <p>Learn HTML from scratch in best possible way.</p>
+        <div class="price"><strike>₹299</strike> Free</div>
+        <button>Buy</button>
+        <button>Add to cart</button>
+      </div>
+
+      <div class="card">
+        <img src="../images/programming.png" alt="programming" />
+        <h3>CSS Course</h3>
+        <p>Learn CSS from scratch in best possible way.</p>
+        <div class="price"><strike>₹299</strike> Free</div>
+        <button>Buy</button>
+        <button>Add to cart</button>
+      </div>
+      <div class="card">
+        <img src="../images/programming.png" alt="programming" />
+        <h3>JavaScript Course</h3>
+        <p>Learn JavaScript from scratch in best possible way.</p>
+        <div class="price"><strike>₹299</strike> Free</div>
+        <button>Buy</button>
+        <button>Add to cart</button>
+      </div>
+    </div>
+    <footer
+      style="
+        background: #4d4b4b;
+        color: white;
+        text-align: center;
+        padding: 5px;
+        margin-top: 200px;
+      "
+    >
+      <p>&copy; 2025 My Website | Made with ❤️ by Me</p>
+    </footer>
+  </body>
+</html>

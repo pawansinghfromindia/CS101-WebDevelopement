@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Google Form Signup</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f0f4f8;
+        margin: 0;
+        padding: 0;
+      }
+
+      nav {
+        background-color: #333;
+        padding: 10px;
+        text-align: center;
+      }
+
+      nav a {
+        color: white;
+        margin: 0 15px;
+        text-decoration: none;
+        font-weight: bold;
+      }
+
+      nav a:hover {
+        text-decoration: underline;
+      }
+
+      .container {
+        max-width: 800px;
+        margin: 40px auto;
+        background-color: white;
+        padding: 20px;
+        box-shadow: 0 0 10px #ccc;
+        border-radius: 10px;
+      }
+
+      h1 {
+        text-align: center;
+        color: #333;
+      }
+
+      iframe {
+        border: none;
+        width: 100%;
+        height: 720px;
+      }
+
+      footer {
+        background: #333;
+        color: white;
+        text-align: center;
+        padding: 20px;
+        margin-top: 40px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <a href="index.html">Home</a> | <a href="about.html">About</a> |
+      <a href="contact.html">Contact</a> | <a href="login.html">Login</a> |
+      <a href="signup.html">Signup</a> |
+      <a href="products.html">Products</a>
+    </nav>
+
+    <div class="container">
+      <h1>Create an Account</h1>
+      <form
+        action="https://docs.google.com/forms/d/e/1FAIpQLSf9pY2ZyWXeYAt2nLSS7xizvLsOurje1o7FoU_S-jhRd2XDNA/formResponse"
+        method="POST"
+        target="hidden_iframe"
+        onsubmit="submitted=true"
+      >
+        <input
+          type="text"
+          name="entry.1234567890"
+          placeholder="Full Name"
+          required
+        />
+        <input
+          type="email"
+          name="entry.9876543210"
+          placeholder="Email Address"
+          required
+        />
+        <input
+          type="password"
+          name="entry.1122334455"
+          placeholder="Password"
+          required
+        />
+        <button type="submit">Sign Up</button>
+      </form>
+
+      <!-- Hidden iframe to silently submit the form -->
+      <iframe name="hidden_iframe" style="display: none"></iframe>
+    </div>
+
+    <footer>
+      <p>&copy; 2025 My Website | Made with ❤️ by Me</p>
+    </footer>
+  </body>
+</html>
