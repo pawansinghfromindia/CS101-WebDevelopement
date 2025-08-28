@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>New JavaScript</h1>
+    <button id="start">Start</button>
+    <button id="stop">Stop</button>
+  </body>
+  <script>
+    // setInterval(function () {
+    //   console.log("Javascript", Date.now());
+    // }, 1000);
+
+    // const sayDate = function () {
+    //   console.log("JS", Date.now());
+    // };
+    // setInterval(sayDate, 1000);
+
+    // const sayDate = function (str) {
+    //   console.log("JS", Date.now(), str);
+    // };
+    // setInterval(sayDate, 1000, "Hi User");
+
+    // const sayDate = function (str) {
+    //   console.log("JS", Date.now(), str);
+    // };
+
+    // const intervalId = setInterval(sayDate, 1000, "Hi user");
+    // clearInterval(intervalId);
+
+    /*******/
+    // const sayDate = function () {
+    //   console.log("JavaScript", Date.now());
+    // };
+    // const startInterval = function () {
+    //   console.log("started....");
+    //   setInterval(sayDate, 1000);
+    // };
+
+    // const startIntervalId = document
+    //   .querySelector("#start")
+    //   .addEventListener("click", startInterval, false);
+
+    // const stopInterval = function () {
+    //   clearInterval(startIntervalId);
+    //   console.log("stopped....");
+    // };
+    // document
+    //   .querySelector("#stop")
+    //   .addEventListener("click", stopInterval, false);
+    let startRef;
+    document.querySelector("#start").addEventListener(
+      "click",
+      function () {
+        console.log("Start");
+        startRef = setInterval(function () {
+          console.log("Hi", Date.now());
+        }, 1000);
+      },
+      false
+    );
+
+    document.querySelector("#stop").addEventListener(
+      "click",
+      function () {
+        console.log("Stop");
+        clearInterval(startRef);
+      },
+      false
+    );
+  </script>
+</html>

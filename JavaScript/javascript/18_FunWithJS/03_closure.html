@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body style="background-color: #313131">
+    <button id="orange">Oranage</button>
+    <button id="green">Green</button>
+  </body>
+  <script>
+    //practical implementation of closure
+    // document.getElementById("orange").onclick = function () {
+    //   document.body.style.backgroundColor = `orange`;
+    // };
+    // document.getElementById("green").onclick = function () {
+    //   document.body.style.backgroundColor = `green`;
+    // };
+
+    // function clickHandler(color) {
+    //   document.body.style.backgroundColor = `${color}`;
+    // }
+
+    // document.getElementById("orange").onclick = clickHandler("orange");
+    // document.getElementById("green").onclick = clickHandler("green");
+
+    //This will not work due to function call we are passing, we need to change the definition, how? write function
+
+    function clickHandler(color) {
+      //   document.body.style.backgroundColor = `${color}`;
+      return function () {
+        document.body.style.backgroundColor = `${color}`;
+      };
+    }
+
+    document.getElementById("orange").onclick = clickHandler("orange");
+    document.getElementById("green").onclick = clickHandler("green");
+    //now code will run bcuz we know lexical scoping and closure, here when we return function, It doesn't only return reference but also lexical scope whole function
+  </script>
+</html>

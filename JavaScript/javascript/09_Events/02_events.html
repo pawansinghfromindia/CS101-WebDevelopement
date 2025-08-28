@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Events</title>
+  </head>
+  <body style="background-color: #414141; color: aliceblue">
+    <h2>Amazing image</h2>
+    <div>
+      <ul id="images">
+        <li>
+          <img
+            width="200px"
+            id="photoshop"
+            src="https://images.pexels.com/photos/3561339/pexels-photo-3561339.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load"
+            alt="photoshop"
+          />
+        </li>
+        <li>
+          <img
+            width="200px"
+            id="japan"
+            src="https://images.pexels.com/photos/3532553/pexels-photo-3532553.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load"
+            alt=""
+          />
+        </li>
+        <li>
+          <img
+            width="200px"
+            id="river"
+            src="https://images.pexels.com/photos/3532551/pexels-photo-3532551.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load"
+            alt=""
+          />
+        </li>
+        <li>
+          <img
+            width="200px"
+            id="owl"
+            src="https://images.pexels.com/photos/3532552/pexels-photo-3532552.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load"
+          />
+        </li>
+        <li>
+          <img
+            width="200px"
+            id="prayer"
+            src="https://images.pexels.com/photos/2522671/pexels-photo-2522671.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load"
+            alt=""
+          />
+        </li>
+        <li>
+          <a style="color: aliceblue" href="https://google.com" id="google"
+            >Google</a
+          >
+        </li>
+      </ul>
+    </div>
+  </body>
+  <script>
+    // As we clicked on image it should be hidden
+    // It looks small but there will be problems while doing this
+    // document.querySelector("#images").addEventListener(
+    //   "click",
+    //   function (e) {
+    //     // console.log(e);
+    //     // console.log(e.target);
+    //     console.log(e.target.parentNode); // we have to remove whole <li> not only images otherwise bullets will be there for image
+    //     //How to remove it
+    //     let removeIt = e.target.parentNode;
+    //     // 2 ways of removing it
+    //     // removeIt.remove(); //1st way
+    //     removeIt.parentNode.removeChild(removeIt); //2nd way
+    //   },
+    //   false
+    // );
+    // But here problem is when you click beside google every images got remove.
+    // this is because google is a <li> item the parent of <li> id <ul> so in e.target.parentNode you get ul and you removed it.
+    // for that we have to put stricts checks
+    document.querySelector("#images").addEventListener(
+      "click",
+      function (e) {
+        console.log(e.target.tagName);
+        if (e.target.tagName === "IMG") {
+          console.log(e.target.id);
+          let removeIt = e.target.parentNode;
+          removeIt.remove();
+        }
+      },
+      false
+    );
+  </script>
+</html>

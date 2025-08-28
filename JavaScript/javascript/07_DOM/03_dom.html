@@ -1,0 +1,28 @@
+<!-- How to create NodeList programtically -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Node List</title>
+  </head>
+  <body style="background-color: #212121; color: #fff"></body>
+  <script>
+    const div = document.createElement("div");
+    console.log(div);
+    div.className = "main";
+    div.id = Math.round(Math.random() * 10 + 1);
+    div.setAttribute("title", "Title generated");
+    div.style.backgroundColor = "green";
+    div.style.padding = "12px";
+
+    //div.innerText = "Hello World!";
+    // this is not preferred this bcuz of optimization .class innerText will first bring the value and then overwrite the values
+    // where as setAttribute directly set the values they don't bring the value and then set it
+    // SO it saves one round trip
+    const addText = document.createTextNode("Hello World!");
+    div.appendChild(addText);
+
+    document.body.appendChild(div);
+  </script>
+</html>

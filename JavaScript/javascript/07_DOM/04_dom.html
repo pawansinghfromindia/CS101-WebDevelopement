@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM</title>
+  </head>
+  <body style="background-color: #212121; color: #fff">
+    <ul class="language">
+      <li>JavaScript</li>
+    </ul>
+  </body>
+  <script>
+    //Target is add another li item
+    // there are 2 or 3 ways to add a list item
+    //1. through function
+    function addLanguage(langName) {
+      const li = document.createElement("li");
+      li.innerHTML = `${langName}`;
+      document.querySelector(".language").appendChild(li);
+    }
+    addLanguage("Python");
+    addLanguage("TypeScript");
+    // this is the first thing comes in mind to add any element
+    //but there is a problem with this
+    // Here Browser engine has to traverse all the tree in the document what if 1000 elements in a tree
+
+    function addOptimizedLanguage(langName) {
+      const li = document.createElement("li");
+      const addText = document.createTextNode(langName);
+      li.appendChild(addText);
+      //li.appendChild(document.createTextNode(langName));
+      document.querySelector(`.language`).appendChild(li);
+    }
+    addOptimizedLanguage("GoLang");
+    //why optimised?
+    /*
+    bcuz as we're not using innerHTML so we don't have to traverse the whole tree we directly create a li in which inserted a text node and appendChild
+    Although there is no impact in small basic project but in big project we should always preferred appendChild() to be appreciated
+    */
+
+    //Edit values
+    const secondLang = document.querySelector("li:nth-child(2)");
+    console.log(secondLang);
+
+    //secondLang.innerHTML = "Mojo";
+    const newLi = document.createElement("li");
+    newLi.textContent = "Mojo Lang"; // this is in air to add this we have to replaceWith
+    secondLang.replaceWith(newLi);
+
+    //Edit2 replace 1st list JavaScript with RUST
+    const firstLang = document.querySelector("li:nth-child(1)");
+    console.log(firstLang);
+    //firstLang.outerHTML = "<li>RUST</li>";
+    const newList = document.createElement("li");
+    newList.textContent = "RUST";
+    firstLang.replaceWith(newList);
+
+    //Remove , remove the last GoLang from the list
+    const lastLang = document.querySelector("li:last-child");
+    console.log(lastLang);
+    lastLang.remove();
+  </script>
+</html>

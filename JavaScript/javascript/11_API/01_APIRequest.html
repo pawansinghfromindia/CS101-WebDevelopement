@@ -1,0 +1,105 @@
+<!-- Not directly jumping into fetch() which is ne came in recent 6-7 years ago We
+first learn How we used to do for years Before that also we had APIs, So How do
+we do that? There we used to send XML http request. This is a legacy now we use
+less bcuz developers doesn't know about the older code. But It is very
+interesting and powerful as well. XML http request is in itself an iteresting
+thing. It is still used in many frameworks. -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body style="background-color: #212121; color: #fff">
+    Value State Description 0 UNSENT Client has been created. open() not called
+    yet.<br />
+    1 OPENED open() has been called. <br />
+    2 HEADERS_RECEIVED send() has been called, and headers and status are
+    available. <br />
+    3 LOADING Downloading; responseText holds partial data. <br />
+    4 DONE The operation is complete. <br />
+
+    <h2>Assignment</h2>
+    <button class="click">Click</button>
+    <br />
+    <!-- <div class="card">
+      <img src="" alt="profile" id="images" style="width: 100%" />
+      <div class="container">
+        <h4 id="name"><b></b></h4>
+        <p id="Follower"></p>
+      </div>
+    </div> -->
+  </body>
+  <script>
+    let imgsrc;
+    let name;
+    let followers;
+    const requestURL = "https://api.github.com/users/hiteshchoudhary";
+    const xhr = new XMLHttpRequest();
+    xhr.open("GET", requestURL); // open() doesn't call automatically
+    // console.log("Hello");
+    // console.log(xhr.readyState);//to check state of the method
+    xhr.onreadystatechange = function () {
+      console.log(xhr.readyState);
+      if (xhr.readyState === 4) {
+        // console.log(this.responseText); //define the this context
+        const data = JSON.parse(this.responseText); // convert the string into JSON
+        //console.log(typeof data); // most of the time string not object so convert it into JSON through parse method
+        // console.log(data.login);
+        // console.log(data.name);
+        // console.log(data.followers);
+        // console.log(data.avatar_url);
+        // console.log(this.responseText);
+        imgsrc = data.avatar_url;
+        name = data.name;
+        followers = data.followers;
+      }
+    };
+    xhr.send(); // to call open
+
+    console.log("Hello");
+    console.log(name);
+
+    // Create the card container
+    const card = document.createElement("div");
+    card.className = "card";
+
+    // Add image
+    const img = document.createElement("img");
+    img.src = imgsrc;
+    img.alt = "Card Image";
+    card.appendChild(img);
+
+    // Create content container
+    const content = document.createElement("div");
+    content.className = "card-content";
+
+    // Title
+    const title = document.createElement("h2");
+    title.className = "card-title";
+
+    title.textContent = name;
+    content.appendChild(title);
+
+    // Description
+    const text = document.createElement("p");
+    text.className = "card-text";
+    text.textContent = followers;
+    content.appendChild(text);
+
+    // Button
+    const button = document.createElement("a");
+    button.className = "card-button";
+    button.href = "#";
+    button.textContent = "Learn More";
+    content.appendChild(button);
+
+    // Append content to card
+    card.appendChild(content);
+
+    // Add card to body
+    document.body.appendChild(card);
+  </script>
+</html>

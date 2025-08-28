@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Closure</title>
+  </head>
+  <body style="background-color: #313131"></body>
+  <script>
+    function makeFunc() {
+      const name = "ABCD";
+      function displayName() {
+        console.log(name); //lexical scoping
+      }
+      return displayName; // returning reference
+    }
+    // whole function memory will be shared not only execution context reference this is due to the lexical scoping
+    const myFunc = makeFunc();
+    myFunc();
+
+    //practical implementation
+  </script>
+</html>
