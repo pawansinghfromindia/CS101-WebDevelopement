@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chessboard</title>
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.5;
+      background-color: white;
+    }
+    h1 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-bottom: 1px solid black;
+    }
+    section {
+      background-color: #f9f7f7;
+      padding: 1rem 1rem;
+      margin: auto;
+      max-width: 1000px;
+    }
+
+    .grid-container {
+      max-width: 1000px;
+      display: grid;
+      grid-template-columns: repeat(8, 1fr);
+      grid-template-rows: repeat(8, 85px);
+    }
+
+    .items {
+      background-color: rgb(251, 251, 250);
+      border: 1px solid black;
+    }
+    .r1:nth-child(odd),
+    .r3:nth-child(odd),
+    .r5:nth-child(odd),
+    .r7:nth-child(odd) {
+      background: #090909;
+      color: aliceblue;
+    }
+    .r2:nth-child(even),
+    .r4:nth-child(even),
+    .r6:nth-child(even),
+    .r8:nth-child(even) {
+      background: #090909;
+      color: aliceblue;
+    }
+  </style>
+  <body>
+    <h1>Chess Board</h1>
+    <section>
+      <div class="grid-container">
+        <div class="items r1"></div>
+        <div class="items r1"></div>
+        <div class="items r1"></div>
+        <div class="items r1"></div>
+        <div class="items r1"></div>
+        <div class="items r1"></div>
+        <div class="items r1"></div>
+        <div class="items r1"></div>
+        <div class="items r2"></div>
+        <div class="items r2"></div>
+        <div class="items r2"></div>
+        <div class="items r2"></div>
+        <div class="items r2"></div>
+        <div class="items r2"></div>
+        <div class="items r2"></div>
+        <div class="items r2"></div>
+        <div class="items r3"></div>
+        <div class="items r3"></div>
+        <div class="items r3"></div>
+        <div class="items r3"></div>
+        <div class="items r3"></div>
+        <div class="items r3"></div>
+        <div class="items r3"></div>
+        <div class="items r3"></div>
+        <div class="items r4"></div>
+        <div class="items r4"></div>
+        <div class="items r4"></div>
+        <div class="items r4"></div>
+        <div class="items r4"></div>
+        <div class="items r4"></div>
+        <div class="items r4"></div>
+        <div class="items r4"></div>
+        <div class="items r5"></div>
+        <div class="items r5"></div>
+        <div class="items r5"></div>
+        <div class="items r5"></div>
+        <div class="items r5"></div>
+        <div class="items r5"></div>
+        <div class="items r5"></div>
+        <div class="items r5"></div>
+        <div class="items r6"></div>
+        <div class="items r6"></div>
+        <div class="items r6"></div>
+        <div class="items r6"></div>
+        <div class="items r6"></div>
+        <div class="items r6"></div>
+        <div class="items r6"></div>
+        <div class="items r6"></div>
+        <div class="items r7"></div>
+        <div class="items r7"></div>
+        <div class="items r7"></div>
+        <div class="items r7"></div>
+        <div class="items r7"></div>
+        <div class="items r7"></div>
+        <div class="items r7"></div>
+        <div class="items r7"></div>
+        <div class="items r8"></div>
+        <div class="items r8"></div>
+        <div class="items r8"></div>
+        <div class="items r8"></div>
+        <div class="items r8"></div>
+        <div class="items r8"></div>
+        <div class="items r8"></div>
+        <div class="items r8"></div>
+      </div>
+    </section>
+  </body>
+</html>

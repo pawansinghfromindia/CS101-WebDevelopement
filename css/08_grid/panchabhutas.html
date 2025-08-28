@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Learning School</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        margin: 0;
+        padding: 20px;
+        background-color: #f0f0f0;
+      }
+      h1,
+      h2 {
+        color: #333;
+      }
+      .container {
+        background-color: #17c3da;
+        border: 2px solid hsl(30, 90%, 33%);
+        margin-bottom: 20px;
+        padding: 10px;
+      }
+      .grid-container {
+        display: grid;
+        gap: 10px;
+        background-color: #ddd;
+        padding: 10px;
+        margin-bottom: 10px;
+      }
+      .box {
+        background-color: #3498db;
+        color: white;
+        padding: 20px;
+        font-size: 18px;
+        text-align: center;
+      }
+      .box:nth-child(even) {
+        background-color: #e74c3c;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>This is Learning School</h1>
+    <div class="container">
+      <div
+        class="grid-container"
+        style="
+          grid-template-areas: 'header header header header' 'sidebar main main main' ' footer footer footer footer';
+        "
+        style="grid-template-columns: repeat(auto-fit, minmax(100px, 1fr))"
+      >
+        <div class="box" style="grid-area: header">Header</div>
+        <div class="box" style="grid-area: sidebar">Sidebar</div>
+        <div class="box" style="grid-area: main">Main Content</div>
+        <div class="box" style="grid-area: footer">Footer</div>
+      </div>
+    </div>
+  </body>
+</html>

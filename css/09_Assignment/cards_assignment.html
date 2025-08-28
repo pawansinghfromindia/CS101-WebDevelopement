@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .grid-container {
+        display: grid;
+        background-color: #e8e8e8;
+        width: 100%;
+        height: 100vh;
+        background: linear-gradient(135deg, #d3d3d3, #2d3436);
+        grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+      }
+
+      .container {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* background-color: #e8e8e8; */
+      }
+
+      .card {
+        width: 200px;
+        height: 280px;
+        border-radius: 25px;
+        background: linear-gradient(170deg, #383838, #1f1f1f);
+        position: relative;
+        box-shadow: 0 25px 50px rgba(0, 0, 0, 0.55);
+        cursor: pointer;
+        transition: all 0.3s;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+      }
+
+      .c0 {
+        background: linear-gradient(170deg, #00ffff, #1f1f1f);
+      }
+      .c1 {
+        background: linear-gradient(170deg, #ee3e42, #1f1f1f);
+      }
+      .c2 {
+        background: linear-gradient(170deg, #ffff00, #1f1f1f);
+      }
+      .c3 {
+        background: linear-gradient(170deg, white, #1f1f1f);
+      }
+
+      .card:hover {
+        transform: scale(1.54);
+      }
+
+      .card > img {
+        width: 125px;
+        height: 100px;
+      }
+      .card > h3 {
+        font-size: 1.4rem;
+      }
+      .card > p {
+        font-size: 1.3rem;
+        color: green;
+        font-weight: bold;
+        margin-bottom: 5px;
+      }
+      .card > button {
+        padding: 8px;
+        border-radius: 8px;
+        border: 1px solid white;
+        font-size: 0.9rem;
+        background: linear-gradient(170deg, #ff5003, #fd7702);
+        box-shadow: 0 25px 50px rgba(0, 0, 0, 0.55);
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 5px;
+      }
+      .card > button:hover {
+        background-color: #0e0f11db;
+      }
+
+      /* Add a black background color to the top navigation */
+      .navbar {
+        background: linear-gradient(170deg, #383838, #1f1f1f);
+        overflow: hidden;
+        /* display: flex;
+        justify-content: center;
+        align-items: center; */
+      }
+
+      /* Style the links inside the navigation bar */
+      .navbar a {
+        float: left;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+      }
+
+      /* Change the color of links on hover */
+      .navbar a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+
+      /* Add a color to the active/current link */
+      .navbar a.active {
+        background-color: hsl(18, 100%, 51%);
+        color: rgb(52, 50, 50);
+      }
+      .navbar button {
+        float: right;
+        margin-right: 20px;
+        padding: 14px 16px;
+        border-radius: 8px;
+        border: 1px solid white;
+        font-size: 0.9rem;
+        background: linear-gradient(170deg, #ff5003, #fd7702);
+        box-shadow: 0 25px 50px rgba(0, 0, 0, 0.55);
+        cursor: pointer;
+        /* margin-bottom: 5px; */
+      }
+      .navbar button:hover {
+        background-color: #4a4c50db;
+      }
+
+      .footer {
+        background: linear-gradient(170deg, #383838, #1f1f1f);
+        overflow: hidden;
+        text-align: center;
+        padding: 5px;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="navbar">
+      <a class="active" href="#home">Home</a>
+      <a href="#chai_services">Chai Services </a>
+      <a href="#contact">Contact Us</a>
+      <a href="#about">About Us</a>
+      <button type="submit">Login</button>
+    </div>
+    <div
+      class="grid-container"
+      style="
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(1, 400px);
+      "
+    >
+      <div class="container">
+        <div class="card c0">
+          <img src="../images/cup-logo.png" alt="" />
+          <h3>Chai Basics</h3>
+          <p>9 $</p>
+          <button class="buy_now_btn" type="submit">Buy now</button>
+          <button class="add_to_cart_btn" type="submit">Add to wishlist</button>
+        </div>
+      </div>
+      <div class="container">
+        <div class="card c1">
+          <img src="../images/cup-logo.png" alt="" />
+          <h3>Chai Premium</h3>
+          <p>19 $</p>
+          <button class="buy_now_btn">Buy now</button>
+          <button class="add_to_cart_btn">Add to wishlist</button>
+        </div>
+      </div>
+      <div class="container">
+        <div class="card c2">
+          <img src="../images/cup-logo.png" alt="" />
+          <h3>Chai Premium Pro</h3>
+          <p>29 $</p>
+          <button class="buy_now_btn">Buy now</button>
+          <button class="add_to_cart_btn">Add to wishlist</button>
+        </div>
+      </div>
+      <div class="container">
+        <div class="card c3">
+          <img src="../images/cup-logo.png" alt="" />
+          <h3>Chai Premium Max</h3>
+          <p>39 $</p>
+          <button class="buy_now_btn">Buy now</button>
+          <button class="add_to_cart_btn">Add to wishlist</button>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <h3>Thank you for visiting us! 💖</h3>
+      <ul style="list-style-type: none">
+        <li>Visit us again</li>
+        <li>Contact Us | About Us</li>
+      </ul>
+
+      <footer>
+        <small>
+          Copyright © 2025 Chai History Archives. All Rights Reserved.
+        </small>
+      </footer>
+    </div>
+  </body>
+</html>

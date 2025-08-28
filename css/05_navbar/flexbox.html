@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pseudo element</title>
+    <style>
+      .exciting-text::after {
+        content: " <- EXCITING!";
+        color: darkgreen;
+        font-weight: bolder;
+      }
+
+      .boring-text::after {
+        content: " <- BORING";
+        color: darkviolet;
+        font-weight: bolder;
+      }
+
+      .ribbon {
+        background-color: #5bc8f7;
+      }
+
+      .ribbon::after {
+        content: "This is a fancy orange box.";
+        background-color: #ffba10;
+        border-color: black;
+        border-style: dotted;
+      }
+    </style>
+  </head>
+  <body>
+    <p class="boring-text">Here is some plain old boring text.</p>
+    <p>Here is some normal text that is neither boring nor exciting.</p>
+    <p class="exciting-text">Contributing to MDN is easy and fun.</p>
+
+    <span class="ribbon">Look at the orange box after this text. </span>
+  </body>
+</html>
